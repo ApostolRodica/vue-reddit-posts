@@ -1,4 +1,4 @@
-<template v-if="post">
+<template>
   <div class="reddit-list-item">
     <div class="thumbnail"
       v-if="post?.data?.thumbnail && post?.data?.thumbnail_width && post?.data?.thumbnail != 'default'" 

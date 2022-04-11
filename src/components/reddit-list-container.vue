@@ -1,8 +1,7 @@
-<template v-if="posts && posts.length">
+<template>
   <div class="reddit-list-container">
     <div v-for="post in posts" :key="post" class="post">
         <RedditListItem
-         v-if="post?.data"
          :post=post
         >
         </RedditListItem>
